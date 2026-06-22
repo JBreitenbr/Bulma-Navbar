@@ -52,6 +52,9 @@ canvas {
   grid-template-columns: 1fr;
   background-color:#1e293b;
   }
+.hl {
+  color:white;
+}
 #tooltip {
   position: absolute; opacity: 0; background: #fff; padding: 10px; border: 1px solid #ccc; border-radius: 5px;font-size:8px;}
 span {
