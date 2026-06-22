@@ -47,3 +47,43 @@ canvas {
     transform: scale(0.5);
   }
 }
+#spotify-list {
+  display:grid;
+  grid-template-columns: 1fr;
+  background-color:#1e293b;
+  }
+#tooltip {
+  position: absolute; opacity: 0; background: #fff; padding: 10px; border: 1px solid #ccc; border-radius: 5px;font-size:8px;}
+span {
+  margin: 10px;
+  }
+.artist-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 12px;
+      margin: 2px;   
+      border-radius: 8px;
+      background-color: #e7e7e7;
+      font-family: "Nunito",sans-serif;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .artist-item img {
+      width: 60px;
+      height: 60px;
+      border-radius: 4px;
+      margin-right: 15px;
+    }
+    .artist-details {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .artist-name { font-weight: bold; font-size: 15px; font-family:"Montserrat";}
+    .genres-name { color: #555; font-size: 12px; }
+  
+@media (min-width: 768px) {
+  #spotify-list {
+  grid-template-columns: 1fr 1fr;
+  }
+}
