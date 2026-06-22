@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Julias Charts</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.0.1/wordcloud2.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+        <nav class="navbar greyed">
+      <div class="navbar-brand">
+        
+        <div class="navbar-item wrapper">
+         <div class="logo"></div>
+          <h2 class="charts">Julias Charts</h2>       </div>
+        <div
+          class="navbar-burger burger scaled "
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="navbarExampleTransparentExample" class="navbar-menu greyed">
+        <div class="navbar-start greyed">
+          <a class="navbar-item" href="index.html">
+            Startseite 
+          </a>
+          <a class="navbar-item" href="tracks.html">
+            Top Tracks 
+          </a> 
+          <a class="navbar-item" href="artists.html">
+            Top Artists 
+          </a>
+          <a class="navbar-item" href="albums.html">
+            Top Albums 
+          </a>
+           <a class="navbar-item" href="heatmap.html">
+            Heatmap
+          </a>
+          <a class="navbar-item" href="barchart.html">
+            Barchart 
+          </a>
+          </div>
+        </div>
+      </div>
+    </nav>    
+    <script src="./navbar.js"></script>
+
+   <h2>Artists of the month</h2>
+<span class="select is-fullwidth"><select id="selectButton"></select></span>
+    <div id="tooltip"></div>
+  <script src="artist_top10.js"></script>   
+  </body>
+</html>
