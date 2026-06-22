@@ -1,6 +1,6 @@
 function showMonth(period){
 d3.select("#spotify-list").remove();
-  let container = d3.select("body")
+  let container = d3.select("#conti")
     .append("div")
     .attr("id","spotify-list");
 //let container = d3.select("#spotify-list");
