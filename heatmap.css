@@ -38,7 +38,7 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
   align-items: center;
 }
 #my_dataviz {
-  margin-top: 3vh;
+  margin-top: 8vh;
   background-color:papayawhip;
   width: 360px;
   height: 460px;
@@ -47,12 +47,16 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
 @media (min-width: 768px) {
   #my_dataviz {
     width: 520px;
-    height: min(520,65vh);
+    height: 75vh;
   }
 }
 @media (min-width: 992px) {
   #my_dataviz {
     width: 720px;
-    height: 520px;
+  }
+}
+@media (min-width: 1200px) {
+  #my_dataviz {
+    width: 890px;
   }
 }
