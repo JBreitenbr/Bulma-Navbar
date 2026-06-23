@@ -42,3 +42,18 @@ d3.csv(`https://raw.githubusercontent.com/JBreitenbr/Bulma-Navbar/refs/heads/mai
 
 });
 }
+
+showMonth("May 2026");
+d3.select("#selectButton")
+      .selectAll('myOptions')
+     	.data(['May 2026','June 2026',"July 2026"])
+      .enter()
+    	.append('option')
+      .text(function (d) { return d; }) 
+      .attr("value", function (d) { return d; })
+function update(selectedGroup) {   
+   showMonth(selectedGroup);
+}   
+d3.select("#selectButton").on("change", function(d) {
+        let selectedOption = d3.select(this).property("value")
+        update(selectedOption)});
