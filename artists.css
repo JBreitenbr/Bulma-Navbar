@@ -43,11 +43,7 @@ canvas {
   height: 90vw;
   border: 2vw solid #CBD5E1;
 }
-@media (min-width: 768px) {
-  .logo {
-    transform: scale(0.5);
-  }
-}
+
 #spotify-list {
   display:grid;
   grid-template-columns: 1fr;
