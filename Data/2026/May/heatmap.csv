@@ -1,0 +1,311 @@
+variable,group,value,daily_score,n_tracks,n_utracks,daily_dur
+Van Der Graaf Generator,1,0,0,0,0,0
+Franco Battiato,1,1,18,2,2,8.07
+Yes,1,4,46,5,5,29.08
+Kajagoogoo,1,0,0,0,0,0
+King Crimson,1,3,32,3,3,30.25
+New Order,1,0,0,0,0,0
+Premiata Forneria Marconi,1,3,36,4,4,20.28
+Depeche Mode,1,0,0,0,0,0
+Banco Del Mutuo Soccorso,1,5,56,6,6,44.77
+The Dandy Warhols,1,0,0,0,0,0
+Van Der Graaf Generator,2,1,11,1,1,8.3
+Franco Battiato,2,4,44,5,5,23.8
+Yes,2,3,30,3,3,21.43
+Kajagoogoo,2,0,0,0,0,0
+King Crimson,2,4,45,5,5,26.53
+New Order,2,0,0,0,0,0
+Premiata Forneria Marconi,2,3,36,4,4,20.69
+Depeche Mode,2,0,0,0,0,0
+Banco Del Mutuo Soccorso,2,0,0,0,0,0
+The Dandy Warhols,2,0,0,0,0,0
+Van Der Graaf Generator,3,7,76,8,7,91.82
+Franco Battiato,3,2,29,3,3,18.67
+Yes,3,3,38,4,4,25.92
+Kajagoogoo,3,0,0,0,0,0
+King Crimson,3,3,38,4,4,26.98
+New Order,3,0,0,0,0,0
+Premiata Forneria Marconi,3,4,41,5,4,26.62
+Depeche Mode,3,0,0,0,0,0
+Banco Del Mutuo Soccorso,3,3,30,3,2,39.79
+The Dandy Warhols,3,0,0,0,0,0
+Van Der Graaf Generator,4,6,65,7,6,73.82
+Franco Battiato,4,2,27,3,3,13.95
+Yes,4,1,19,2,2,9.06
+Kajagoogoo,4,0,0,0,0,0
+King Crimson,4,2,20,2,2,12.46
+New Order,4,1,19,2,2,10.11
+Premiata Forneria Marconi,4,1,14,2,1,8.06
+Depeche Mode,4,7,77,9,9,42.22
+Banco Del Mutuo Soccorso,4,2,23,2,2,23.02
+The Dandy Warhols,4,0,0,0,0,0
+Van Der Graaf Generator,5,7,71,8,6,88.41
+Franco Battiato,5,4,43,5,5,18.4
+Yes,5,1,18,2,2,7.92
+Kajagoogoo,5,8,84,11,9,49.9
+King Crimson,5,3,33,3,3,36.39
+New Order,5,0,0,0,0,0
+Premiata Forneria Marconi,5,3,31,4,3,17.72
+Depeche Mode,5,0,0,0,0,0
+Banco Del Mutuo Soccorso,5,3,31,3,3,27.28
+The Dandy Warhols,5,0,0,0,0,0
+Van Der Graaf Generator,6,5,59,6,5,77.86
+Franco Battiato,6,6,67,8,8,31.68
+Yes,6,0,0,0,0,0
+Kajagoogoo,6,8,122,17,13,69.24
+King Crimson,6,2,27,3,3,13.47
+New Order,6,0,0,0,0,0
+Premiata Forneria Marconi,6,0,0,0,0,0
+Depeche Mode,6,0,0,0,0,0
+Banco Del Mutuo Soccorso,6,4,40,5,4,22.26
+The Dandy Warhols,6,1,10,1,1,5.68
+Van Der Graaf Generator,7,0,0,0,0,0
+Franco Battiato,7,2,27,3,3,13.0
+Yes,7,0,0,0,0,0
+Kajagoogoo,7,8,171,28,15,109.91
+King Crimson,7,1,11,1,1,7.32
+New Order,7,0,0,0,0,0
+Premiata Forneria Marconi,7,0,0,0,0,0
+Depeche Mode,7,0,0,0,0,0
+Banco Del Mutuo Soccorso,7,2,27,3,3,13.65
+The Dandy Warhols,7,0,0,0,0,0
+Van Der Graaf Generator,8,7,71,7,7,82.75
+Franco Battiato,8,0,0,0,0,0
+Yes,8,1,10,1,1,3.93
+Kajagoogoo,8,0,9,1,1,3.6
+King Crimson,8,1,10,1,1,4.03
+New Order,8,1,11,1,1,7.49
+Premiata Forneria Marconi,8,0,0,0,0,0
+Depeche Mode,8,2,20,2,2,12.33
+Banco Del Mutuo Soccorso,8,1,10,1,1,5.63
+The Dandy Warhols,8,8,159,20,19,89.89
+Van Der Graaf Generator,9,4,45,4,4,56.17
+Franco Battiato,9,8,113,14,14,50.08
+Yes,9,0,0,0,0,0
+Kajagoogoo,9,2,27,3,3,13.86
+King Crimson,9,6,69,8,8,41.12
+New Order,9,0,0,0,0,0
+Premiata Forneria Marconi,9,0,0,0,0,0
+Depeche Mode,9,0,0,0,0,0
+Banco Del Mutuo Soccorso,9,0,0,0,0,0
+The Dandy Warhols,9,8,145,19,17,71.93
+Van Der Graaf Generator,10,8,84,10,8,83.62
+Franco Battiato,10,8,99,12,12,46.27
+Yes,10,2,20,2,2,14.44
+Kajagoogoo,10,0,0,0,0,0
+King Crimson,10,3,31,3,3,26.43
+New Order,10,0,0,0,0,0
+Premiata Forneria Marconi,10,2,28,3,3,16.35
+Depeche Mode,10,0,0,0,0,0
+Banco Del Mutuo Soccorso,10,1,11,1,1,6.25
+The Dandy Warhols,10,8,92,11,11,47.0
+Van Der Graaf Generator,11,8,88,9,9,96.82
+Franco Battiato,11,0,0,0,0,0
+Yes,11,0,0,0,0,0
+Kajagoogoo,11,7,76,9,9,39.61
+King Crimson,11,0,0,0,0,0
+New Order,11,0,0,0,0,0
+Premiata Forneria Marconi,11,0,0,0,0,0
+Depeche Mode,11,0,0,0,0,0
+Banco Del Mutuo Soccorso,11,0,0,0,0,0
+The Dandy Warhols,11,0,0,0,0,0
+Van Der Graaf Generator,12,6,67,7,7,62.13
+Franco Battiato,12,8,134,17,16,68.27
+Yes,12,0,0,0,0,0
+Kajagoogoo,12,0,0,0,0,0
+King Crimson,12,0,0,0,0,0
+New Order,12,0,0,0,0,0
+Premiata Forneria Marconi,12,1,19,2,2,10.16
+Depeche Mode,12,0,0,0,0,0
+Banco Del Mutuo Soccorso,12,0,0,0,0,0
+The Dandy Warhols,12,0,0,0,0,0
+Van Der Graaf Generator,13,6,66,7,7,57.15
+Franco Battiato,13,2,28,3,3,14.92
+Yes,13,8,130,15,15,99.26
+Kajagoogoo,13,0,0,0,0,0
+King Crimson,13,7,76,9,9,39.7
+New Order,13,0,0,0,0,0
+Premiata Forneria Marconi,13,0,0,0,0,0
+Depeche Mode,13,0,0,0,0,0
+Banco Del Mutuo Soccorso,13,0,0,0,0,0
+The Dandy Warhols,13,0,0,0,0,0
+Van Der Graaf Generator,14,3,35,3,3,45.01
+Franco Battiato,14,0,9,1,1,3.57
+Yes,14,8,106,13,11,89.39
+Kajagoogoo,14,0,0,0,0,0
+King Crimson,14,3,37,4,4,21.7
+New Order,14,0,0,0,0,0
+Premiata Forneria Marconi,14,0,0,0,0,0
+Depeche Mode,14,0,0,0,0,0
+Banco Del Mutuo Soccorso,14,0,0,0,0,0
+The Dandy Warhols,14,0,0,0,0,0
+Van Der Graaf Generator,15,0,0,0,0,0
+Franco Battiato,15,1,10,1,1,4.89
+Yes,15,2,21,2,2,15.12
+Kajagoogoo,15,8,165,22,19,86.83
+King Crimson,15,6,68,8,8,34.44
+New Order,15,0,0,0,0,0
+Premiata Forneria Marconi,15,4,44,5,5,24.9
+Depeche Mode,15,0,0,0,0,0
+Banco Del Mutuo Soccorso,15,8,111,13,13,69.83
+The Dandy Warhols,15,0,0,0,0,0
+Van Der Graaf Generator,16,0,0,0,0,0
+Franco Battiato,16,8,104,13,12,55.67
+Yes,16,8,114,17,10,87.55
+Kajagoogoo,16,0,0,0,0,0
+King Crimson,16,1,10,1,1,4.88
+New Order,16,0,0,0,0,0
+Premiata Forneria Marconi,16,8,179,22,22,96.72
+Depeche Mode,16,0,0,0,0,0
+Banco Del Mutuo Soccorso,16,0,0,0,0,0
+The Dandy Warhols,16,0,0,0,0,0
+Van Der Graaf Generator,17,0,0,0,0,0
+Franco Battiato,17,1,18,2,2,8.43
+Yes,17,8,112,13,13,78.9
+Kajagoogoo,17,2,27,3,3,13.3
+King Crimson,17,3,35,4,4,16.06
+New Order,17,0,0,0,0,0
+Premiata Forneria Marconi,17,8,82,10,9,52.04
+Depeche Mode,17,0,0,0,0,0
+Banco Del Mutuo Soccorso,17,0,0,0,0,0
+The Dandy Warhols,17,0,0,0,0,0
+Van Der Graaf Generator,18,6,64,7,7,49.3
+Franco Battiato,18,1,18,2,2,7.06
+Yes,18,8,218,26,25,192.75
+Kajagoogoo,18,3,36,4,4,18.51
+King Crimson,18,4,47,5,5,32.91
+New Order,18,0,0,0,0,0
+Premiata Forneria Marconi,18,3,31,4,3,17.03
+Depeche Mode,18,0,0,0,0,0
+Banco Del Mutuo Soccorso,18,0,0,0,0,0
+The Dandy Warhols,18,1,10,1,1,4.13
+Van Der Graaf Generator,19,8,106,12,12,83.7
+Franco Battiato,19,0,0,0,0,0
+Yes,19,0,0,0,0,0
+Kajagoogoo,19,0,0,0,0,0
+King Crimson,19,1,11,1,1,6.45
+New Order,19,0,0,0,0,0
+Premiata Forneria Marconi,19,8,92,11,11,47.59
+Depeche Mode,19,0,0,0,0,0
+Banco Del Mutuo Soccorso,19,0,9,1,1,2.65
+The Dandy Warhols,19,0,0,0,0,0
+Van Der Graaf Generator,20,6,62,7,7,37.23
+Franco Battiato,20,0,0,0,0,0
+Yes,20,6,64,7,7,46.24
+Kajagoogoo,20,8,175,24,19,112.06
+King Crimson,20,0,0,0,0,0
+New Order,20,2,29,3,3,20.15
+Premiata Forneria Marconi,20,0,0,0,0,0
+Depeche Mode,20,2,21,2,2,17.52
+Banco Del Mutuo Soccorso,20,0,0,0,0,0
+The Dandy Warhols,20,0,0,0,0,0
+Van Der Graaf Generator,21,3,32,3,3,30.57
+Franco Battiato,21,1,10,1,1,4.28
+Yes,21,4,44,5,5,24.21
+Kajagoogoo,21,1,11,1,1,6.58
+King Crimson,21,0,0,0,0,0
+New Order,21,0,0,0,0,0
+Premiata Forneria Marconi,21,0,0,0,0,0
+Depeche Mode,21,1,19,2,2,10.69
+Banco Del Mutuo Soccorso,21,0,0,0,0,0
+The Dandy Warhols,21,0,0,0,0,0
+Van Der Graaf Generator,22,0,0,0,0,0
+Franco Battiato,22,7,75,9,9,34.64
+Yes,22,0,0,0,0,0
+Kajagoogoo,22,8,98,13,11,49.98
+King Crimson,22,1,11,1,1,6.44
+New Order,22,2,27,3,3,11.52
+Premiata Forneria Marconi,22,1,10,1,1,5.4
+Depeche Mode,22,1,12,1,1,9.59
+Banco Del Mutuo Soccorso,22,0,0,0,0,0
+The Dandy Warhols,22,0,0,0,0,0
+Van Der Graaf Generator,23,0,0,0,0,0
+Franco Battiato,23,1,18,2,2,7.08
+Yes,23,1,10,1,1,5.81
+Kajagoogoo,23,8,87,11,10,44.03
+King Crimson,23,1,19,2,2,10.9
+New Order,23,8,110,13,12,86.84
+Premiata Forneria Marconi,23,0,0,0,0,0
+Depeche Mode,23,8,81,10,9,50.01
+Banco Del Mutuo Soccorso,23,0,0,0,0,0
+The Dandy Warhols,23,0,0,0,0,0
+Van Der Graaf Generator,24,0,0,0,0,0
+Franco Battiato,24,8,99,12,12,48.49
+Yes,24,1,10,1,1,5.26
+Kajagoogoo,24,5,53,7,5,32.98
+King Crimson,24,2,23,3,2,13.66
+New Order,24,6,66,8,6,62.68
+Premiata Forneria Marconi,24,0,0,0,0,0
+Depeche Mode,24,8,97,12,10,76.23
+Banco Del Mutuo Soccorso,24,0,0,0,0,0
+The Dandy Warhols,24,0,0,0,0,0
+Van Der Graaf Generator,25,0,0,0,0,0
+Franco Battiato,25,8,235,30,28,147.87
+Yes,25,0,0,0,0,0
+Kajagoogoo,25,2,26,3,3,11.25
+King Crimson,25,1,19,2,2,9.53
+New Order,25,2,21,2,2,17.65
+Premiata Forneria Marconi,25,0,0,0,0,0
+Depeche Mode,25,4,46,5,5,29.52
+Banco Del Mutuo Soccorso,25,0,0,0,0,0
+The Dandy Warhols,25,0,0,0,0,0
+Van Der Graaf Generator,26,1,11,1,1,8.3
+Franco Battiato,26,8,211,28,25,108.16
+Yes,26,1,11,1,1,6.58
+Kajagoogoo,26,4,43,5,5,20.54
+King Crimson,26,1,19,2,2,8.64
+New Order,26,3,30,3,3,23.3
+Premiata Forneria Marconi,26,1,18,2,2,8.56
+Depeche Mode,26,0,0,0,0,0
+Banco Del Mutuo Soccorso,26,1,11,1,1,6.37
+The Dandy Warhols,26,0,0,0,0,0
+Van Der Graaf Generator,27,1,12,1,1,10.38
+Franco Battiato,27,0,9,1,1,3.57
+Yes,27,0,9,1,1,3.16
+Kajagoogoo,27,2,26,3,3,9.77
+King Crimson,27,1,19,2,2,11.06
+New Order,27,2,20,2,2,13.02
+Premiata Forneria Marconi,27,1,11,1,1,6.02
+Depeche Mode,27,1,19,2,2,10.21
+Banco Del Mutuo Soccorso,27,1,10,1,1,4.61
+The Dandy Warhols,27,0,0,0,0,0
+Van Der Graaf Generator,28,0,0,0,0,0
+Franco Battiato,28,0,0,0,0,0
+Yes,28,0,0,0,0,0
+Kajagoogoo,28,6,68,8,8,33.97
+King Crimson,28,2,28,3,3,17.01
+New Order,28,3,30,3,3,24.26
+Premiata Forneria Marconi,28,0,0,0,0,0
+Depeche Mode,28,3,39,4,4,30.78
+Banco Del Mutuo Soccorso,28,0,0,0,0,0
+The Dandy Warhols,28,0,0,0,0,0
+Van Der Graaf Generator,29,0,0,0,0,0
+Franco Battiato,29,4,43,5,5,18.61
+Yes,29,0,0,0,0,0
+Kajagoogoo,29,1,11,1,1,6.58
+King Crimson,29,0,0,0,0,0
+New Order,29,8,138,17,16,85.89
+Premiata Forneria Marconi,29,0,0,0,0,0
+Depeche Mode,29,0,0,0,0,0
+Banco Del Mutuo Soccorso,29,0,0,0,0,0
+The Dandy Warhols,29,0,0,0,0,0
+Van Der Graaf Generator,30,0,0,0,0,0
+Franco Battiato,30,0,0,0,0,0
+Yes,30,0,0,0,0,0
+Kajagoogoo,30,1,11,1,1,6.58
+King Crimson,30,1,18,2,2,6.67
+New Order,30,8,110,14,12,72.34
+Premiata Forneria Marconi,30,1,19,2,2,10.26
+Depeche Mode,30,1,19,2,2,9.54
+Banco Del Mutuo Soccorso,30,1,10,1,1,5.33
+The Dandy Warhols,30,0,0,0,0,0
+Van Der Graaf Generator,31,0,0,0,0,0
+Franco Battiato,31,0,0,0,0,0
+Yes,31,8,126,15,15,75.03
+Kajagoogoo,31,1,10,1,1,3.85
+King Crimson,31,0,0,0,0,0
+New Order,31,2,29,4,2,23.86
+Premiata Forneria Marconi,31,0,0,0,0,0
+Depeche Mode,31,1,11,1,1,6.34
+Banco Del Mutuo Soccorso,31,0,0,0,0,0
+The Dandy Warhols,31,0,0,0,0,0
