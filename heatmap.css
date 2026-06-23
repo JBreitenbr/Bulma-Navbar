@@ -44,9 +44,15 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
   height: 460px;
   border: 1vw solid #CBD5E1;
 }
+@media (min-width: 550px) {
+  #my_dataviz {
+    width: 490px;
+    height: 75vh;
+  }
+}
 @media (min-width: 768px) {
   #my_dataviz {
-    width: 520px;
+    width: 620px;
     height: 75vh;
   }
 }
