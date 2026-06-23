@@ -37,6 +37,11 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
   justify-content: center;
   align-items: center;
 }
+h2 {
+  font-size: 1.4rem;
+  text-align:center;
+  color:white;
+}
 #my_dataviz {
   margin-top: 8vh;
   background-color:papayawhip;
