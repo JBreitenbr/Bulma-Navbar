@@ -44,6 +44,15 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
   height: 460px;
   border: 1vw solid #CBD5E1;
 }
+#tooltip {
+  position: absolute; 
+  opacity: 0;
+  background: #fff; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;font-size:8px;
+}
+
 @media (min-width: 550px) {
   #my_dataviz {
     width: 490px;
