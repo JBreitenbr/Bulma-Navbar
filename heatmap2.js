@@ -25,7 +25,7 @@ d3.csv(`https://raw.githubusercontent.com/JBreitenbr/Bulma-Navbar/refs/heads/mai
 
   // Build X scales and axis:
   var x = d3.scaleBand()
-   .range([Math.max(140,2.7*pad), width-0.4*pad ])
+   .range([Math.min(140,2*pad), width-0.4*pad ])
     .domain(myGroups)
     .padding(0.05);
   svg.append("g")
@@ -41,7 +41,7 @@ d3.csv(`https://raw.githubusercontent.com/JBreitenbr/Bulma-Navbar/refs/heads/mai
     .padding(0.05);
   svg.append("g")
     .style("font-size", 15)
-    .call(d3.axisLeft(y).tickSize(0)).style("font","11px arial ").style("transform","translate("+Math.max(140,2.7*pad)+"px,0)")
+    .call(d3.axisLeft(y).tickSize(0)).style("font","11px arial ").style("transform","translate("+Math.min(140,2*pad)+"px,0)")
     .select(".domain").remove()
 
   // Build color scale
