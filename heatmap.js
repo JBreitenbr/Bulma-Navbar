@@ -2,7 +2,10 @@ function showMonth(period){
 var margin = {top: 20, right: 25, bottom: 30, left: 140};
 let width=+d3.select("#my_dataviz").style("width").slice(0,-2)-margin.left - margin.right;
 let height=+d3.select("#my_dataviz").style("height").slice(0,-2)- margin.top - margin.bottom;  
-d3.select("#my_dataviz").remove();
+if(300<width && width<500){
+    width-=70;
+}
+  d3.select("#my_dataviz").remove();
   let container = d3.select(".wrapped")
     .append("div")
     .attr("id","my_dataviz");
