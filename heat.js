@@ -8,7 +8,7 @@ d3.select("#my_dataviz").remove();
     .attr("id","my_dataviz");
 let w=+d3.select("#my_dataviz").style("width").slice(0,-2)-margin.left - margin.right;
 let h=+d3.select("#my_dataviz").style("height").slice(0,-2)- margin.top - margin.bottom;  
-let scale=h>w?w/width:h/height;
+let scale=h>w?h/height:w/width;
   // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
 .append("svg")
