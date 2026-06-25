@@ -42,12 +42,24 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
   text-align:center;
   color:white;
 }
-#my_dataviz {
+/*#my_dataviz {
   margin-top: 8vh;
   background-color:papayawhip;
   width: 360px;
   height: 460px;
   border: 1vw solid #CBD5E1;
+}*/
+#my_dataviz {
+  margin-top: 8vh;
+  background-color: papayawhip;
+  width: 95vw;
+  max-width: 890px;
+  height: 460px;
+  border: 1vw solid #CBD5E1;
+}
+
+#my_dataviz svg {
+  display: block;
 }
 #tooltip {
   position: absolute; 
@@ -58,7 +70,7 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
   border-radius: 5px;font-size:8px;
 }
 
-@media (min-width: 550px) {
+/*@media (min-width: 550px) {
   #my_dataviz {
     width: 490px;
     height: 75vh;
@@ -80,3 +92,4 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 167.5 167.5' xmlns
     width: 890px;
   }
 }
+*/
