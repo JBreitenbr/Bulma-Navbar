@@ -6,7 +6,10 @@ d3.select("#my_dataviz").remove();
   let container = d3.select(".wrapped")
     .append("div")
     .attr("id","my_dataviz");
-// append the svg object to the body of the page
+let w=+d3.select("#my_dataviz").style("width").slice(0,-2)-margin.left - margin.right;
+let h=+d3.select("#my_dataviz").style("height").slice(0,-2)- margin.top - margin.bottom;  
+let scale=h>w?w/width:h/height;
+  // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
 .append("svg")
   .attr("width", width + margin.left + margin.right)
@@ -40,7 +43,7 @@ d3.csv(`https://raw.githubusercontent.com/JBreitenbr/Bulma-Navbar/refs/heads/mai
     .padding(0.05);
   svg.append("g")
     .style("font-size", 15)
-    .call(d3.axisLeft(y).tickSize(0)).style("font","11px arial ").style("transform","scale(1)")
+    .call(d3.axisLeft(y).tickSize(0)).style("font","11px arial ").style("transform","scale("+scale+")")
     .select(".domain").remove()
 
   // Build color scale
@@ -98,7 +101,7 @@ function colored(n){
       .style("fill", function(d) { return colored(d.value)} )
       .style("stroke-width", 0.5)
       .style("stroke", "grey")
-      .style("opacity", 0.8).style("transform","scale(1)")
+      .style("opacity", 0.8).style("transform","scale("+scale+")")
     .on("mouseover", mouseover)
     .on("mousemove", mousemove)
     .on("mouseleave", mouseleave)
