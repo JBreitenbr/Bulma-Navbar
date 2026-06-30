@@ -1,4 +1,4 @@
-variable,group,ind,daily_score,n_tracks,n_utracks,daily_dur
+variable,group,value,daily_score,n_tracks,n_utracks,daily_dur
 New Order,1,9,148,20,15,117.99
 Franco Battiato,1,2,26,3,3,10.79
 Yes,1,1,10,1,1,4.48
