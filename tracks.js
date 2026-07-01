@@ -17,7 +17,7 @@ items.append("img")
 tooltip.transition()
 .duration(200)
 .style("opacity", 0.9);
-tooltip.html(Track: ${d.track}<br/>Album: ${d.album_name}<br/>Duration: ${d.dur_min} min<br/>Score: ${d.track_score}<br/>Times played: ${d.plays}<br/>Played on: ${d.track_unique_days} days)
+tooltip.html(`Track: ${d.track}<br/>Album: ${d.album_name}<br/>Duration: ${d.dur_min} min<br/>Score: ${d.track_score}<br/>Times played: ${d.plays}<br/>Played on: ${d.track_unique_days} days`)
 .style("left", (event.pageX + 10) + "px")
 .style("top", (event.pageY - 28) + "px");
 }).on("mouseout", (d) => {
