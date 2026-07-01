@@ -33,7 +33,7 @@ details.append("div")
 .attr("class", "album-name")
 .text(d => d.album_name);
 
-// Append Genres Name
+// Append Artist Name
 details.append("div")
 .attr("class", "artist-name")
 .text(d => d.artist);});
