@@ -5,7 +5,7 @@ let container = d3.select("#conti")
 .attr("id","spotify-list");
 //let container = d3.select("#spotify-list");
 const tooltip = d3.select("#tooltip");
-d3.json(https://raw.githubusercontent.com/JBreitenbr/Bulma-Navbar/refs/heads/main/Data/${period.split(" ")[1]}/${period.split(" ")[0]}/albums.json).then(data => {
+d3.json(`https://raw.githubusercontent.com/JBreitenbr/Bulma-Navbar/refs/heads/main/Data/${period.split(" ")[1]}/${period.split(" ")[0]}/albums.json`).then(data => {
 const items = container.selectAll(".album-item")
 .data(data)
 .enter()
