@@ -5,7 +5,7 @@ d3.select("#spotify-list").remove();
     .attr("id","spotify-list");
 //let container = d3.select("#spotify-list");
 const tooltip = d3.select("#tooltip");
-d3.json(`https://raw.githubusercontent.com/JBreitenbr/Bulma-Navbar/refs/heads/main/Data/${period.split(" ")[1]}/${period.split(" ")[0]}/artists_top_10.json`).then(data => {
+d3.json(`https://raw.githubusercontent.com/JBreitenbr/Bulma-Navbar/refs/heads/main/Data/${period.split(" ")[1]}/${period.split(" ")[0]}/artists.json`).then(data => {
     const items = container.selectAll(".artist-item")
       .data(data)
       .enter()
