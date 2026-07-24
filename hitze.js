@@ -16,7 +16,7 @@ function showMonth(period) {
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-  d3.csv(`https://raw.githubusercontent.com/JBreitenbr/Bulma-Navbar/refs/heads/main/Data/${period.split(" ")[1]}/${period.split(" ")[0]}/heatmap.csv`, function(data) {
+  d3.csv(`https://raw.githubusercontent.com/JBreitenbr/Julias-Charts-Data/refs/heads/main/${period.split(" ")[1]}/${period.split(" ")[0]}/heatmap.csv`, function(data) {
 
     const myGroups = d3.map(data, d => d.group).keys();
     const myVars = d3.map(data, d => d.variable).keys();
