@@ -88,7 +88,9 @@ function showMonth(period) {
       .style("fill", d => blues[+d.value])
       .style("stroke-width", 0.5)
       /*.style("stroke", "grey")*/
-      .style("opacity", 0.8);
+      .style("opacity", 0.8).on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseleave", mouseleave);
   });
 }
 showMonth("May 2026");
