@@ -45,7 +45,38 @@ function showMonth(period) {
     const blues = ["#ffffff","#deebf7","#c6dbef",
       "#9ecae1","#6baed6","#4292c6","#2171b3",
       "#08519c","#08306b", "#000080"];
+  // create a tooltip
+  var tooltip = d3.select("#my_dataviz")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+   .style("border-width", "2px")
+    .style("border-radius", "2px")
+    .style("padding", "2px");
 
+  // Three function that change the tooltip when user hover / move / leave a cell
+  var mouseover = function(d) {
+    tooltip
+      .style("opacity", 1)
+    d3.select(this)
+      .style("stroke", "black")
+      .style("opacity", 1)
+  }
+  var mousemove = function(d) {
+    tooltip
+      .html("Artist: "+ d.variable+"<br/> Day: "+d.group+"<br/> Duration: "+d.daily_dur+"<br/> Number of tracks: "+d.n_tracks+"<br/> Number of unique tracks: "+d.n_utracks)
+      .style("left", (d3.mouse(this)[0]+70) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+  var mouseleave = function(d) {
+    tooltip
+      .style("opacity", 0)
+    d3.select(this)
+      .style("stroke", "none")
+      .style("opacity", 0.8)
+  }
     svg.selectAll("rect")
       .data(data, d => d.group + ":" + d.variable)
       .enter()
