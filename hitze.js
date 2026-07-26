@@ -56,7 +56,7 @@ function showMonth(period) {
       .attr("height", y.bandwidth())
       .style("fill", d => blues[+d.value])
       .style("stroke-width", 0.5)
-      .style("stroke", "grey")
+      /*.style("stroke", "grey")*/
       .style("opacity", 0.8);
   });
 }
