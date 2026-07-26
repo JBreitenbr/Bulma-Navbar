@@ -54,7 +54,7 @@ function showMonth(period) {
     .style("border", "solid")
    .style("border-width", "2px")
     .style("border-radius", "2px")
-    .style("padding", "2px");
+    .style("padding", "8px");
 
   // Three function that change the tooltip when user hover / move / leave a cell
   var mouseover = function(d) {
@@ -66,9 +66,9 @@ function showMonth(period) {
   }
   var mousemove = function(d) {
     tooltip
-      .html("Artist: "+ d.variable+"<br/> Day: "+d.group+"<br/> Duration: "+d.daily_dur+"<br/> Number of tracks: "+d.n_tracks+"<br/> Number of unique tracks: "+d.n_utracks)
-      .style("left", (d3.mouse(this)[0]+70) + "px")
-      .style("top", (d3.mouse(this)[1]) + "px")
+      .html("Artist: "+ d.variable+"<br/> Day: "+d.group+"<br/> Duration: "+d.daily_dur+"<br/> Number of tracks: "+parseInt(d.n_tracks)+"<br/> Number of unique tracks: "+parseInt(d.n_utracks))
+      .style("left", 100+ "px")
+      .style("top", 100 + "px")
   }
   var mouseleave = function(d) {
     tooltip
