@@ -66,7 +66,7 @@ function showMonth(period) {
   }
   var mousemove = function(d) {
     tooltip
-      .html("Artist: "+ d.variable+"<br/> Day: "+d.group+"<br/> Duration: "+d.daily_dur+"<br/> Number of tracks: "+parseInt(d.n_tracks)+"<br/> Number of unique tracks: "+parseInt(d.n_utracks))
+      .html("Artist: "+ d.variable+"<br/> Day: "+d.group+"<br/> Duration: "+Math.round(100*d.daily_dur)/100+" minutes<br/> Number of tracks: "+parseInt(d.n_tracks)+"<br/> Number of unique tracks: "+parseInt(d.n_utracks))
       .style("left", 100+ "px")
       .style("top", 100 + "px")
   }
