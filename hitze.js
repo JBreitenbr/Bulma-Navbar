@@ -55,7 +55,7 @@ function showMonth(period) {
    .style("border-width", "2px")
     .style("border-radius", "2px")
     .style("padding", "8px")
-  tr.style("transform", `translate(0,-150)`);
+   .style("transform", `translate(0,-150)`);
 
   // Three function that change the tooltip when user hover / move / leave a cell
   var mouseover = function(d) {
