@@ -1,5 +1,5 @@
 function showMonth(period) {
-  const margin = { top: 20, right: 25, bottom: 30, left: 140 };
+  const margin = { top: 20, right: 25, bottom: 30, left: 148 };
   const outerWidth = 800;
   const outerHeight = 380;
   const width = outerWidth - margin.left - margin.right;
