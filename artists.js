@@ -39,7 +39,7 @@ tooltip.transition()
       .text(d => d.genres);});
   }
 
-showMonth("May 2026");
+showMonth("August 2026");
 d3.select("#selectButton")
       .selectAll('myOptions')
      	.data(['May 2026','June 2026',"July 2026","August 2026"].reverse())
