@@ -39,7 +39,7 @@ details.append("div")
 .text(d => d.artist);});
 }
 
-showMonth("August 2026");
+showMonth("September 2026");
 d3.select("#selectButton")
 .selectAll('myOptions')
 .data(['May 2026','June 2026',"July 2026","August 2026","September 2026"].reverse())
