@@ -55,7 +55,14 @@ canvas {
   color:white;
 }
 #tooltip {
-  position: absolute; opacity: 0; background: #fff; padding: 10px; border: 1px solid #ccc; border-radius: 5px;font-size:8px;}
+  position: absolute;
+  opacity: 0;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size:0.7rem;
+}
 span {
   margin: 10px;
   }
